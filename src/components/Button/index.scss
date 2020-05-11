@@ -1,0 +1,44 @@
+.button{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover{
+       .arrowhead{
+        transform: translateX(5px);
+       }
+    }
+    
+
+    .button-text{
+        text-transform: uppercase;
+        font-size: .8rem;
+        margin-right: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .arrowhead{
+        position: relative;
+        width: 50px;
+        height: 1px;
+        background-color: #000;
+        transition: transform .3s ease;
+
+        &::after{
+            content: '';
+            width: 12px;
+            height: 1px;
+            background-color: #000;
+            display: block;
+            position: absolute;
+            left: 100%;
+            top: 0;
+            transform: rotate(225deg);
+            transform-origin: left center;
+        }
+    }
+}

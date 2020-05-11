@@ -1,0 +1,36 @@
+.section-1{
+    width: 100%;
+    height: auto;
+
+    
+    .sec1-container{
+        width: 90%;
+        padding: 30px;
+        margin: 0 auto;
+        height: auto;
+        border: 6px solid #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        background: linear-gradient(-270deg, #fff, #fff, #fff, #fff, #6a93a6);
+
+        .sce1-title{
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .sce1-content{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            
+            span{
+                text-align: center;
+                font-size: 1rem;
+                margin-bottom: 5px;
+            }
+
+        }
+    }
+}

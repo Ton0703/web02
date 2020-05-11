@@ -1,0 +1,14 @@
+.wrap-1{
+   width: 100%;
+   height: auto;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   .wrap-text{
+       font-size: 1rem;
+       margin-bottom: 40px;
+       font-weight: 200;
+   }
+
+}
